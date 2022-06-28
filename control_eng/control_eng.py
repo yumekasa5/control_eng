@@ -2,7 +2,7 @@ import logging
 
 
 #ロガーの生成
-logger = logging.getLogger('mylog')
+logger = logging.getLogger('mycontrollog')
 
 #出力レベルの設定
 logger.setLevel(logging.DEBUG)
@@ -22,4 +22,4 @@ error_msg = 'error_message'
 
 def main():
     logger.debug('[START] My System Start')
-    print('[SUCCESS] py -m  myproject')
+    print('[SUCCESS] Start')

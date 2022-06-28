@@ -1,3 +1,3 @@
 if __name__ == '__main__':
-    from .my import main
+    from .control_eng import main
     main()
